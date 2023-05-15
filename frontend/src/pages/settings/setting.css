@@ -1,0 +1,86 @@
+.settings{
+    display: flex;
+}
+
+.setting-wrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.setting-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting-update-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.setting-delete-title{
+    color: tomato;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.setting-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.setting-profilepicture{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.setting-profilepicture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.setting-profilepicture-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.setting-form > label{
+    font-size: 20px;
+    margin-top: 20px;
+    color: teal;
+}
+
+.setting-form > input{
+    color: teal;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid teal;
+}
+.setting-form > input::placeholder{
+    color: teal;
+}
+
+.setting-submit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 50px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
